@@ -2070,4 +2070,10 @@ function VaspxApp() {
 }
 
 // Render Application to Root DOM
-ReactDOM.render(<VaspxApp />, document.getElementById('root'));
+const container = document.getElementById('root');
+if (ReactDOM.createRoot) {
+  const root = ReactDOM.createRoot(container);
+  root.render(<VaspxApp />);
+} else {
+  ReactDOM.render(<VaspxApp />, container);
+}

@@ -4,7 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>VASPX - Virtual Asset Service Provider Attribution & Blockchain Intelligence Platform</title>
-  <meta name="description" content="Trace the Flow. Identify the VASP. Accelerate Investigation. Authorized Law Enforcement & Compliance Platform.">
+  <meta name="description" content="Virtual Asset Service Provider Attribution & Blockchain Intelligence Platform">
+  <meta property="og:title" content="VASPX - Virtual Asset Service Provider Attribution & Blockchain Intelligence Platform">
+  <meta property="og:description" content="Virtual Asset Service Provider Attribution & Blockchain Intelligence Platform">
   
   <!-- Google Fonts: Inter -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -110,7 +112,15 @@
 <body class="h-full">
   <div id="root" class="h-full"></div>
 
-  <!-- Main JavaScript Application Bundle -->
-  <script type="text/babel" data-presets="react" src="src/appBundle.js"></script>
+  <!-- VASPX Enterprise Modular Scripts -->
+  <script src="/src/api.js"></script>
+  <script type="text/babel" data-presets="react" src="/src/components/AuthScreens.js"></script>
+  <script type="text/babel" data-presets="react" src="/src/components/Navigation.js"></script>
+  <script type="text/babel" data-presets="react" src="/src/components/Dashboards.js"></script>
+  <script type="text/babel" data-presets="react" src="/src/components/CaseManagement.js"></script>
+  <script type="text/babel" data-presets="react" src="/src/components/AssignmentAndCreationModals.js"></script>
+  <script type="text/babel" data-presets="react" src="/src/components/AdminToolsAndAudit.js"></script>
+  <script type="text/babel" data-presets="react" src="/src/components/VaspIntelligenceTools.js"></script>
+  <script type="text/babel" data-presets="react" src="/src/app.js"></script>
 </body>
 </html>

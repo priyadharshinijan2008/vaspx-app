@@ -1,0 +1,17 @@
+{
+  "name": "vaspx-intelligence-platform",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Virtual Asset Service Provider Attribution & Blockchain Intelligence Platform",
+  "scripts": {
+    "dev": "python server.py",
+    "start": "python server.py"
+  },
+  "dependencies": {
+    "cytoscape": "^3.28.1",
+    "leaflet": "^1.9.4",
+    "lucide-react": "^0.344.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

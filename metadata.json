@@ -1,0 +1,8 @@
+{
+  "name": "VASPX",
+  "description": "Virtual Asset Service Provider Attribution & Blockchain Intelligence Platform",
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ],
+  "permissions": []
+}
